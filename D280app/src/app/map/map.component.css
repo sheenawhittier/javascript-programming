@@ -1,0 +1,39 @@
+/*
+.container {
+  justify-content: space-between; 
+}
+
+.map-column {
+  flex: 1; 
+  padding: 20px;
+  border-right: 1px solid #ccc; 
+
+.info-column {
+  flex: 1; 
+  padding: 20px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.right.column {
+  flex: 1;
+}
+*/

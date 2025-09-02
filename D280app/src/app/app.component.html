@@ -1,0 +1,28 @@
+
+<div class="container">
+    <app-map (countrySelected)="loadCountryInfo($event)"></app-map>
+   
+    <div class="info-panel">
+      <h2>Country Details</h2>
+      <div id="name">
+        <p id="namep">Name: {{currentCountryData.name || 'N/A'}}</p>
+      </div>
+      <div id="capital">
+        <p id="capitalp">Capital: {{currentCountryData.capital || 'N/A'}}</p>
+      </div>
+      <div id="region">
+        <p id="regionp">Region: {{currentCountryData.region || 'N/A'}}</p>
+      </div>
+      <div id="incomeLevel">
+        <p id="incomeLevelp">Income Level: {{currentCountryData.incomeLevel || 'N/A'}}</p>
+      </div>
+      <div id="longitude">
+        <p id="longitudep">Longitude: {{currentCountryData.longitude || 'N/A'}}</p>
+      </div>
+      <div id="latitude">
+        <p id="latitudep">Latitude: {{currentCountryData.latitude || 'N/A'}}</p>
+      </div>
+    </div>
+</div>
+
+     

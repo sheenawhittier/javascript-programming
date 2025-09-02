@@ -1,0 +1,62 @@
+
+body {
+  font-family: 'Arial', sans-serif; 
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4; 
+  color: #333; 
+}
+
+.container {
+  display: flex; 
+  height: 100vh; 
+}
+
+.map-container {
+  flex: 1; 
+  background: rgb(62, 74, 235); 
+  border-right: 1px solid #ccc;
+  position: relative; 
+  overflow: hidden;
+  width: 800px;
+  height: auto;
+  display: block;
+}
+
+svg {
+  width: 100%; 
+  height: auto; 
+}
+
+path {
+  fill: #cccccc; 
+  stroke: #333333; 
+  stroke-width: 0.5; 
+  cursor: pointer; 
+  transition: fill 0.3s; 
+}
+
+path:hover {
+  fill: #39d627; 
+}
+
+.info-panel {
+  flex: 2;
+  background: #6eb172; 
+  padding: 20px; 
+  overflow-y: auto; 
+}
+
+.info-panel h2 {
+  margin-top: 0;
+  color: #2a2a2a; 
+}
+
+.info-panel p {
+  font-size: 16px; 
+  line-height: 1.5; 
+  margin-top: 10px; 
+}
+
+
+  

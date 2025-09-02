@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute columns equally */
+}
+
+.map-column {
+  flex: 1; /* Take up 50% of the container width */
+  padding: 20px;
+  border-right: 1px solid #ccc; /* Optional: Add border between columns */
+}
+
+.info-column {
+  flex: 1; /* Take up 50% of the container width */
+  padding: 20px;
+}
